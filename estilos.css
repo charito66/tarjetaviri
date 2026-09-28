@@ -1,0 +1,192 @@
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: #f2f5f7;
+}
+
+
+/* TARJETA */
+
+.tarjeta {
+    width: 90%;
+    max-width: 430px;
+
+    background: white;
+
+    padding: 35px 25px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+/* FOTO */
+
+.foto-contenedor {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 18px;
+}
+
+.foto {
+    width: 125px;
+    height: 125px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #123b55;
+}
+
+
+/* NOMBRE */
+
+h1 {
+    font-size: 28px;
+
+    color: #123b55;
+
+    margin-bottom: 8px;
+}
+
+
+/* PUESTO */
+
+.puesto {
+    font-size: 17px;
+
+    color: #0066a6;
+
+    font-weight: bold;
+}
+
+
+/* LÍNEA */
+
+.linea {
+    width: 60px;
+    height: 3px;
+
+    background: #0066a6;
+
+    margin: 20px auto;
+}
+
+
+/* DATOS */
+
+.datos {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    text-align: left;
+}
+
+.dato {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    color: #333;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+.icono {
+    font-size: 20px;
+
+    min-width: 25px;
+}
+
+
+/* BOTONES */
+
+.botones {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+.boton {
+    display: block;
+
+    padding: 13px;
+
+    border-radius: 12px;
+
+    background: #123b55;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.boton:hover {
+    transform: translateY(-2px);
+}
+
+
+/* WHATSAPP */
+
+.whatsapp {
+    background: #2e93b5;
+}
+
+.insta {
+    background: #d954c3;
+}
+
+/* PIE */
+
+footer {
+    margin-top: 30px;
+
+    color: #03629d;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
